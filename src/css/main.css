@@ -2,15 +2,15 @@
   color: #7332fd !important;
   font-weight: 600;
 }
-.shActive{
+.shActive {
   background-color: #ffffff;
-  box-shadow: 5px 5px 20px rgba(0,0,0,.1);
-  width: 100vw;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 .text-height {
   line-height: 4rem;
 }
-.text-banner{
+.text-banner {
   margin-top: 4rem;
 }
 .decoration-banner {
@@ -51,11 +51,11 @@
   border-radius: 0 0 0.25rem 0.25rem;
 }
 @media (max-width: 576px) {
-  .banner{
+  .banner {
     flex-wrap: wrap-reverse;
   }
-  .text-banner{
-    margin-top:1rem;
+  .text-banner {
+    margin-top: 1rem;
     text-align: center;
   }
 }
