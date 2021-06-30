@@ -2,6 +2,16 @@
   color: #7332fd !important;
   font-weight: 600;
 }
+*:focus{
+  outline: none !important;
+  border: none;
+}
+nav{
+  position: fixed;
+}
+.logo-nav{
+  display: none;
+}
 .shActive{
   background-color: #ffffff;
   box-shadow: 5px 5px 20px rgba(0,0,0,.1);
@@ -18,7 +28,9 @@
   top: 0;
   z-index: -1;
 }
-
+.nav-item{
+  padding: 0 20px;
+}
 .decoration-circle {
   position: absolute;
   left: 10%;
@@ -57,5 +69,23 @@
   .text-banner{
     margin-top:1rem;
     text-align: center;
+  }
+  #nav{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.1);
+    width: 100vw;
+  }
+  .nav-item{
+    padding: 0px;
+    text-align: center;
+  }
+  .navbar-nav{
+    margin-top: 20px;
+  }
+  .nav-item img{
+    display: none;
+  }
+  .logo-nav{
+    display: block;
   }
 }
