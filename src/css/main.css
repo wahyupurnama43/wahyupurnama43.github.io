@@ -65,6 +65,29 @@ nav {
   border-radius: 0 0 0.25rem 0.25rem;
 }
 
+/* Carousel */
+
+/* RESPONSIVE */
+@media screen and (max-width: 767px) {
+  .feedback-slider-item:after {
+    left: 30px;
+    right: 30px;
+  }
+  .customer-feedback .owl-nav [class*="owl-"] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 45px;
+    bottom: auto;
+  }
+  .customer-feedback .owl-prev {
+    left: 0;
+  }
+  .customer-feedback .owl-next {
+    right: 0;
+  }
+}
+
 @media (max-width: 576px) {
   .banner {
     flex-wrap: wrap-reverse;
