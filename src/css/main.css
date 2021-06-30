@@ -23,6 +23,7 @@ nav {
 .text-banner {
   margin-top: 4rem;
 }
+
 .decoration-banner {
   position: absolute;
   top: 0;
@@ -31,6 +32,7 @@ nav {
 .nav-item {
   padding: 0 20px;
 }
+
 .decoration-circle {
   position: absolute;
   left: 10%;
@@ -62,6 +64,7 @@ nav {
   background-clip: border-box;
   border-radius: 0 0 0.25rem 0.25rem;
 }
+
 @media (max-width: 576px) {
   .banner {
     flex-wrap: wrap-reverse;
