@@ -1,0 +1,61 @@
+.active {
+  color: #7332fd !important;
+  font-weight: 600;
+}
+.shActive{
+  background-color: #ffffff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,.1);
+  width: 100vw;
+}
+.text-height {
+  line-height: 4rem;
+}
+.text-banner{
+  margin-top: 4rem;
+}
+.decoration-banner {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.decoration-circle {
+  position: absolute;
+  left: 10%;
+  z-index: -1;
+}
+
+.decoration-circle-2 {
+  position: absolute;
+  left: 5%;
+  z-index: -1;
+}
+
+.top-card {
+  width: 100%;
+  background: rgba(115, 50, 253, 0.8);
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.main-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+@media (max-width: 576px) {
+  .banner{
+    flex-wrap: wrap-reverse;
+  }
+  .text-banner{
+    margin-top:1rem;
+    text-align: center;
+  }
+}
